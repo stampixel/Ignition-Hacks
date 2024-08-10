@@ -12,7 +12,8 @@ function App() {
             </nav>
 
             <div id={"bg-1"} className={"flex flex-col"}>
-                <div id={"homePage"} className={"bg-[url('../public/illustration/frontpage-pc.png')] bg-cover bg-no-repeat bg-top "}>
+                <div id={"homePage"}
+                     className={"bg-[url('../public/illustration/frontpage-pc.png')] bg-cover bg-no-repeat bg-top "}>
                     <div className={"h-screen w-screen flex flex-row p-32 pb-72"}>
                         <div id={"left"} className={"w-1/2"}>
                             <div className={"text-left text-white"}>
@@ -51,27 +52,19 @@ function App() {
                             {/*    <img src={""} alt={""}/>*/}
                             {/*</div>*/}
                         </div>
-
-                        {/*<div id={"wereBack"} className={"h-screen flex items-center justify-center"}>*/}
-                        {/*    <div className={"bg-[url('../public/illustration/textbox/iggywindow.png')] bg-cover bg-no-repeat bg-top h-1/2 m-auto"}>*/}
-                        {/*        <div className={"pt-32 ml-72 text-left w-1/3"}>*/}
-                    {/*            <h3>We're back!</h3>*/}
-                    {/*            <p>Ignition Hacks is a <span*/}
-                    {/*                className={"font-black"}>36-hour online hackathon</span> that*/}
-                    {/*                focuses on the intersection between <span className={"font-black"}>business and technology</span>.*/}
-                    {/*                It is a fun-filled event featuring awesome prizes, SWAG, engaging workshops, and*/}
-                    {/*                more!*/}
-                    {/*            </p>*/}
-
-                    {/*        </div>*/}
-                    {/*        /!*<div>*!/*/}
-                    {/*        /!*    <img src={""} alt={""}/>*!/*/}
-                    {/*        /!*</div>*!/*/}
-                    {/*    </div>*/}
-
                     </div>
 
-                    <div id={"faq"}>
+
+                </div>
+
+                <div id={"section2"} className={"bg-[url('../public/illustration/clouds-283.png')] bg-cover bg-no-repeat bg-top "}>
+                    <div id={"faq"} className={"h-screen"}>
+                        <div>
+
+
+
+                        </div>
+
 
                     </div>
 
