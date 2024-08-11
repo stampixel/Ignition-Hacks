@@ -75,15 +75,16 @@ function App() {
                                     <h2>
                                         <AccordionButton>
                                             <Box as='span' flex='1' textAlign='left'>
-                                            How many people can be on a team?
+                                                How many people can be on a team?
                                             </Box>
                                             <AccordionIcon/>
                                         </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                       
 
-There can be 1-4 members on a team! Feel free to go solo, or collaborate with other hackers to create a project.
+
+                                        There can be 1-4 members on a team! Feel free to go solo, or collaborate with
+                                        other hackers to create a project.
 
                                     </AccordionPanel>
                                 </AccordionItem>
@@ -92,7 +93,7 @@ There can be 1-4 members on a team! Feel free to go solo, or collaborate with ot
                                     <h2>
                                         <AccordionButton>
                                             <Box as='span' flex='1' textAlign='left'>
-                                            What if I don't have a team?
+                                                What if I don't have a team?
                                             </Box>
                                             <AccordionIcon/>
                                         </AccordionButton>
@@ -100,7 +101,10 @@ There can be 1-4 members on a team! Feel free to go solo, or collaborate with ot
                                     <AccordionPanel pb={4}>
                                         L
 
-No worries at all! Many participants go into a hackathon looking for team members. We will have a team finding channel in our Discord server, and a networking portion for the in-person component for you to connect with other hackers.
+                                        No worries at all! Many participants go into a hackathon looking for team
+                                        members. We will have a team finding channel in our Discord server, and a
+                                        networking portion for the in-person component for you to connect with other
+                                        hackers.
 
                                     </AccordionPanel>
                                 </AccordionItem>
@@ -109,15 +113,16 @@ No worries at all! Many participants go into a hackathon looking for team member
                                     <h2>
                                         <AccordionButton>
                                             <Box as='span' flex='1' textAlign='left'>
-                                            How much does it cost to attend?
+                                                How much does it cost to attend?
                                             </Box>
                                             <AccordionIcon/>
                                         </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        
 
-Attending Ignition Hacks is completely free. Zero dollars! We will cover all costs. Your only job is to hack, and have lots of fun! Leave the rest to us.
+
+                                        Attending Ignition Hacks is completely free. Zero dollars! We will cover all
+                                        costs. Your only job is to hack, and have lots of fun! Leave the rest to us.
 
                                     </AccordionPanel>
                                 </AccordionItem>
@@ -126,15 +131,19 @@ Attending Ignition Hacks is completely free. Zero dollars! We will cover all cos
                                     <h2>
                                         <AccordionButton>
                                             <Box as='span' flex='1' textAlign='left'>
-                                            Is there a theme for projects?
+                                                Is there a theme for projects?
                                             </Box>
                                             <AccordionIcon/>
                                         </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        
 
-We do not have a specific theme at Ignition Hacks, however, we are a business-tech hackathon, which means your pitch, idea, and technical demo are all equally valuable. We also offer specific prize tracks which will be listed closer to the event date, so if you’re stuck on project ideas, you can refer to those!
+
+                                        We do not have a specific theme at Ignition Hacks, however, we are a
+                                        business-tech hackathon, which means your pitch, idea, and technical demo are
+                                        all equally valuable. We also offer specific prize tracks which will be listed
+                                        closer to the event date, so if you’re stuck on project ideas, you can refer to
+                                        those!
 
                                     </AccordionPanel>
                                 </AccordionItem>
@@ -143,15 +152,16 @@ We do not have a specific theme at Ignition Hacks, however, we are a business-te
                                     <h2>
                                         <AccordionButton>
                                             <Box as='span' flex='1' textAlign='left'>
-                                            How long will the hackathon last?
+                                                How long will the hackathon last?
                                             </Box>
                                             <AccordionIcon/>
                                         </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        
 
-The hackathon will last from Friday, August 16th to Sunday, August 18th. Hacking will be strictly 36 hours.
+
+                                        The hackathon will last from Friday, August 16th to Sunday, August 18th. Hacking
+                                        will be strictly 36 hours.
 
                                     </AccordionPanel>
                                 </AccordionItem>
@@ -160,15 +170,15 @@ The hackathon will last from Friday, August 16th to Sunday, August 18th. Hacking
                                     <h2>
                                         <AccordionButton>
                                             <Box as='span' flex='1' textAlign='left'>
-                                            Who can participate?
+                                                Who can participate?
                                             </Box>
                                             <AccordionIcon/>
                                         </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        
 
-Anyone from middle school to undergraduate students are welcome to compete!
+
+                                        Anyone from middle school to undergraduate students are welcome to compete!
 
                                     </AccordionPanel>
                                 </AccordionItem>
@@ -177,15 +187,19 @@ Anyone from middle school to undergraduate students are welcome to compete!
                                     <h2>
                                         <AccordionButton>
                                             <Box as='span' flex='1' textAlign='left'>
-                                            What if I've never been to a hackathon before?
+                                                What if I've never been to a hackathon before?
                                             </Box>
                                             <AccordionIcon/>
                                         </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        
 
-Ignition Hacks aims to help people from a variety of technical backgrounds and experiences. We are beginner friendly, and strive to reduce the barrier of entry to technology (including having a best beginner hack award). We will provide lots of resources including workshops, activities, and mentors for you to have one of the best hackathon experiences possible!
+
+                                        Ignition Hacks aims to help people from a variety of technical backgrounds and
+                                        experiences. We are beginner friendly, and strive to reduce the barrier of entry
+                                        to technology (including having a best beginner hack award). We will provide
+                                        lots of resources including workshops, activities, and mentors for you to have
+                                        one of the best hackathon experiences possible!
 
                                     </AccordionPanel>
                                 </AccordionItem>
@@ -194,13 +208,14 @@ Ignition Hacks aims to help people from a variety of technical backgrounds and e
                                     <h2>
                                         <AccordionButton>
                                             <Box as='span' flex='1' textAlign='left'>
-                                            What if I have more questions?
+                                                What if I have more questions?
                                             </Box>
                                             <AccordionIcon/>
                                         </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                    Shoot us an email at info@ignitionhacks.com or message us on Instagram at @ignitionhacks and we’d be more than happy to answer your questions!
+                                        Shoot us an email at info@ignitionhacks.com or message us on Instagram at
+                                        @ignitionhacks and we’d be more than happy to answer your questions!
                                     </AccordionPanel>
                                 </AccordionItem>
                             </Accordion>
