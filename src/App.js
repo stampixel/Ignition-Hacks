@@ -21,7 +21,7 @@ function App() {
 
             <div id={"bg-1"} className={"flex flex-col"}>
                 <div id={"homePage"}
-                     className={"bg-[url('../public/illustration/frontpage-pc.png')] bg-cover bg-no-repeat bg-top "}>
+                     className={"bg-[url('../public/illustration/frontpage-pc.png')] bg-cover bg-no-repeat bg-top"}>
                     <div className={"h-screen w-screen flex flex-row p-32 pb-72"}>
                         <div id={"left"} className={"w-1/2"}>
                             <div className={"text-left text-white"}>
@@ -70,13 +70,13 @@ function App() {
 
 
             <div id={"section2"}
-                 className={"bg-[url('../public/illustration/clouds-283.png')] bg-cover bg-no-repeat bg-top"}>
-                <img src="/illustration/clouds-283.png" className={"invisible"} alt={"bg"}/>
+                 className={"bg-[url('../public/illustration/clouds-283.png')] bg-cover bg-no-repeat bg-top h-[96rem]"}>
+                {/*<img src="/illustration/clouds-283.png" className={"invisible"} alt={"bg"}/>*/}
 
-                <div id={"faq"} className={""}>
+                <div id={"faq-accordion"} className={"flex h-full w-screen"}>
 
-                    <div id={"accordion"} className={"flex justify-center items-center"}>
-                        <Accordion allowToggle className={"w-1/2 text-left"}>
+                    {/*<div id={"accordion"} className={"flex h-full w-screen"}>*/}
+                        <Accordion allowToggle className={"w-1/2 text-left overflow-x-hidden m-auto pt-12"}>
                             <AccordionItem>
                                 <h2>
                                     <AccordionButton>
@@ -204,29 +204,30 @@ function App() {
                                 </AccordionPanel>
                             </AccordionItem>
                         </Accordion>
-                    </div>
+                    {/*</div>*/}
                 </div>
             </div>
 
 
-            {/*<div id={"apply"}>*/}
-                <div id={"apply"} className={"bg-[url('../public/illustration/applytoday.png')] bg-contain bg-no-repeat bg-top -m-72"}>
-                    <img src="/illustration/applytoday.png" className={"invisible"} alt={"bg"}/>
-                    <div className={"flex justify-center items-center"}>
-                        <div className={"flex flex-col"}>
-                            <h2>APPLY TODAY!</h2>
-                            <h5>Applications are due by August 3rd, 2024</h5>
-                            <button><span>Register Here</span></button>
-                        </div>
+            <div id={"apply"} className={"bg-[url('../public/illustration/applytoday.png')] bg-cover bg-no-repeat bg-top h-[42rem] -mt-96"}>
+                {/*<img src="/illustration/applytoday.png" className={"invisible"} alt={"bg"}/>*/}
+                <div className={"flex w-screen h-full"}>
+                    <div className={"flex flex-col m-auto"}>
+                        <h2>APPLY TODAY!</h2>
+                        <h5>Applications are due by August 3rd, 2024</h5>
+                        <button><span>Register Here</span></button>
                     </div>
                 </div>
-            {/*</div>*/}
-
-            <div id={"joinUs"}>
-
             </div>
 
-            <div id={"lastYear"}>
+            <div id={"joinUs"} className={"bg-[url('../public/illustration/cloud-blue-bg.png')] bg-cover bg-no-repeat bg-top h-[110rem] -mt-48"}>
+                <br/>
+                <div className={"bg-[url('../public/illustration/stars.png')] bg-cover bg-no-repeat bg-top h-[92rem] mt-32"}>
+
+                </div>
+            </div>
+
+            <div id={"footerSection"} className={"bg-[url('../public/illustration/cloud-white-bg.png')] bg-cover bg-no-repeat bg-top h-[110rem] -mt-64"}>
 
             </div>
 
