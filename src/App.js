@@ -10,7 +10,7 @@ import {
 
 function App() {
     return (
-        <div className="App h-full overflow-x-hidden ">
+        <div className="App h-full overflow-x-hidden font-poppins">
             <header>
 
             </header>
@@ -25,9 +25,11 @@ function App() {
                     <div className={"h-screen w-screen flex flex-row p-32 pb-72"}>
                         <div id={"left"} className={"w-1/2"}>
                             <div className={"text-left text-white"}>
-                                <h2 className={""}>Ignition Hacks</h2>
-                                <h4>Online Hackathon / August 16-18, 202</h4>
-                                <button>REGISTER HERE</button>
+                                <h2 className={"text-5xl"}>IGNITION HACKS</h2>
+                                <h4 className={"text-3xl font-black"}>Online Hackathon / August 16-18, 2024</h4>
+                                    <a href={""}>
+                                        <button>REGISTER HERE</button>
+                                    </a>
                             </div>
 
                         </div>
@@ -208,16 +210,16 @@ function App() {
 
 
             {/*<div id={"apply"}>*/}
-            {/*    <div className={"bg-[url('../public/illustration/applytoday.png')] bg-cover bg-no-repeat bg-top"}>*/}
-            {/*        <img src="../public/illustration/applytoday.png" className={"invisible"} alt={"bg"}/>*/}
-            {/*        <div className={"h-screen"}>*/}
-            {/*            <div>*/}
-            {/*                <h2>APPLY TODAY!</h2>*/}
-            {/*                <h5>Applications are due by August 3rd, 2024</h5>*/}
-            {/*                <button><span>Register Here</span></button>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
+                <div id={"apply"} className={"bg-[url('../public/illustration/applytoday.png')] bg-contain bg-no-repeat bg-top -m-72"}>
+                    <img src="/illustration/applytoday.png" className={"invisible"} alt={"bg"}/>
+                    <div className={"flex justify-center items-center"}>
+                        <div className={"flex flex-col"}>
+                            <h2>APPLY TODAY!</h2>
+                            <h5>Applications are due by August 3rd, 2024</h5>
+                            <button><span>Register Here</span></button>
+                        </div>
+                    </div>
+                </div>
             {/*</div>*/}
 
             <div id={"joinUs"}>
