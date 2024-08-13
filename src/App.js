@@ -74,9 +74,10 @@ function App() {
                  className={"bg-[url('../public/illustration/clouds-283.png')] bg-cover bg-no-repeat bg-top md:h-[96rem]"}>
 
                 <div id={"faq-accordion"} className={"flex h-full w-screen text-sky-950"}>
-                    <Accordion allowToggle className={"w-3/5 text-left overflow-x-hidden m-auto bg-white p-16 rounded-3xl"}>
+                    <Accordion allowToggle
+                               className={"w-3/5 text-left overflow-x-hidden m-auto bg-white p-16 rounded-3xl"}>
                         <div className={"flex"}>
-                            <h2 className={"m-auto text-4xl font-bold mb-12"}>Frequently Asked Questions</h2>
+                            <h2 className={"m-auto text-4xl font-bold mb-12 tracking-tight"}>FREQUENTLY ASKED QUESTIONS</h2>
                         </div>
                         <AccordionItem className={'border-dashed'}>
                             <h2>
@@ -96,7 +97,7 @@ function App() {
                         <AccordionItem>
                             <h2>
                                 <AccordionButton>
-                                    <Box as='span' flex='1' textAlign='left'>
+                                    <Box as='span' flex='1' textAlign='left' className={"p-4"}>
                                         What if I don't have a team?
                                     </Box>
                                     <AccordionIcon/>
@@ -113,7 +114,7 @@ function App() {
                         <AccordionItem>
                             <h2>
                                 <AccordionButton>
-                                    <Box as='span' flex='1' textAlign='left'>
+                                    <Box as='span' flex='1' textAlign='left' className={"p-4"}>
                                         How much does it cost to attend?
                                     </Box>
                                     <AccordionIcon/>
@@ -128,7 +129,7 @@ function App() {
                         <AccordionItem>
                             <h2>
                                 <AccordionButton>
-                                    <Box as='span' flex='1' textAlign='left'>
+                                    <Box as='span' flex='1' textAlign='left' className={"p-4"}>
                                         Is there a theme for projects?
                                     </Box>
                                     <AccordionIcon/>
@@ -146,7 +147,7 @@ function App() {
                         <AccordionItem>
                             <h2>
                                 <AccordionButton>
-                                    <Box as='span' flex='1' textAlign='left'>
+                                    <Box as='span' flex='1' textAlign='left' className={"p-4"}>
                                         How long will the hackathon last?
                                     </Box>
                                     <AccordionIcon/>
@@ -161,7 +162,7 @@ function App() {
                         <AccordionItem>
                             <h2>
                                 <AccordionButton>
-                                    <Box as='span' flex='1' textAlign='left'>
+                                    <Box as='span' flex='1' textAlign='left' className={"p-4"}>
                                         Who can participate?
                                     </Box>
                                     <AccordionIcon/>
@@ -175,7 +176,7 @@ function App() {
                         <AccordionItem>
                             <h2>
                                 <AccordionButton>
-                                    <Box as='span' flex='1' textAlign='left'>
+                                    <Box as='span' flex='1' textAlign='left' className={"p-4"}>
                                         What if I've never been to a hackathon before?
                                     </Box>
                                     <AccordionIcon/>
@@ -193,7 +194,7 @@ function App() {
                         <AccordionItem>
                             <h2>
                                 <AccordionButton>
-                                    <Box as='span' flex='1' textAlign='left'>
+                                    <Box as='span' flex='1' textAlign='left' className={"p-4"}>
                                         What if I have more questions?
                                     </Box>
                                     <AccordionIcon/>
@@ -217,7 +218,9 @@ function App() {
                     <div className={"flex flex-col m-auto text-sky-950 gap-y-2"}>
                         <h2 className={"text-5xl font-black tracking-tight"}>APPLY TODAY!</h2>
                         <h4 className={"text-2xl font-medium"}>Applications are due by August 3rd, 2024</h4>
-                        <button className={"text-white bg-blue-400 dark:bg-blue-500 font-bold text-xl rounded-lg px-5 py-2.5 text-center w-2/5 mx-auto"}><span>Register Here</span></button>
+                        <button
+                            className={"text-white bg-blue-400 dark:bg-blue-500 font-bold text-xl rounded-lg px-5 py-2.5 text-center w-2/5 mx-auto"}>
+                            <span>Register Here</span></button>
                     </div>
                 </div>
             </div>
@@ -232,40 +235,48 @@ function App() {
             </div>
 
             <div id={"footerSection"}
-                 className={"bg-[url('../public/illustration/cloud-white-bg.png')] bg-cover bg-no-repeat bg-top md:h-[300rem] md:-mt-64 lg:-mt-80"}>
+                 className={"bg-[url('../public/illustration/cloud-white-bg.png')] bg-cover bg-no-repeat bg-top md:h-[300rem] md:-mt-64 lg:-mt-[26rem]"}>
                 <br/>
-                <div id={"sponsors"} className={"w-screen flex mt-72 mb-32"}>
+                <div id={"sponsors"} className={"w-screen flex flex-col gap-y-12 mt-[32rem] mb-32"}>
+                    <div>
+                        <h2 className={"text-5xl font-black tracking-tight"}>OUR SPONSORS</h2>
+                    </div>
                     <div className={"w-3/5 m-auto"}>
                         <div className={"flex flex-col"}>
-                            <div className={"bg-white border-2 rounded-md border-black mb-8"}><img
-                                src="/illustration/logos/BEST_BUY.png" alt={""} className={"w-1/2 m-auto p-8"}/>
+                            <div className={"bg-white border-2 rounded-3xl border-blue-300 mb-8 shadow-xl h-[14rem] w-full flex p-8"}><img
+                                src="/illustration/logos/BEST_BUY.png" alt={""} className={"object-scale-down mx-auto"}/>
                             </div>
-                            <div className={"bg-white border-2 rounded-md border-black mb-8"}><img
-                                src="/illustration/logos/BEST_BUY.png" alt={""} className={"w-1/2 m-auto p-8"}/>
+                            <div className={"bg-white border-2 rounded-3xl border-blue-300 mb-8 shadow-xl h-[14rem] w-full flex p-8"}><img
+                                src="/illustration/logos/GAR.png" alt={""} className={"object-scale-down mx-auto"}/>
                             </div>
                         </div>
                         <div className={"grid grid-cols-2 gap-6 place-items-center"}>
-                            <div className={"bg-white border-2 rounded-md border-black"}><img
-                                src="/illustration/logos/BEST_BUY.png" alt={""} className={"p-8"}/></div>
-                            <div className={"bg-white border-2 rounded-md border-black"}><img
-                                src="/illustration/logos/BEST_BUY.png" alt={""} className={"p-8"}/></div>
-                            <div className={"bg-white border-2 rounded-md border-black"}><img
-                                src="/illustration/logos/BEST_BUY.png" alt={""} className={"p-8"}/></div>
-                            <div className={"bg-white border-2 rounded-md border-black"}><img
-                                src="/illustration/logos/BEST_BUY.png" alt={""} className={"p-8"}/></div>
-                            <div className={"bg-white border-2 rounded-md border-black"}><img
-                                src="/illustration/logos/BEST_BUY.png" alt={""} className={"p-8"}/></div>
-                            <div className={"bg-white border-2 rounded-md border-black"}><img
-                                src="/illustration/logos/BEST_BUY.png" alt={""} className={"p-8"}/></div>
+                            <div className={"bg-white border-2 rounded-3xl border-blue-300 mb-8 shadow-xl h-[14rem] w-full flex p-8"}><img
+                                src="/illustration/logos/CERTOPUS.svg" alt={""} className={"object-scale-down mx-auto"}/>
+                            </div>
+                            <div className={"bg-white border-2 rounded-3xl border-blue-300 mb-8 shadow-xl h-[14rem] w-full flex p-8"}><img
+                                src="/illustration/logos/IGDA.png" alt={""} className={"object-scale-down mx-auto"}/>
+                            </div>
+                            <div className={"bg-white border-2 rounded-3xl border-blue-300 mb-8 shadow-xl h-[14rem] w-full flex p-8"}><img
+                                src="/illustration/logos/INTERVIEW_BUDDY.png" alt={""} className={"object-scale-down mx-auto"}/>
+                            </div>
+                            <div className={"bg-white border-2 rounded-3xl border-blue-300 mb-8 shadow-xl h-[14rem] w-full flex p-8"}><img
+                                src="/illustration/logos/NORDVPN.png" alt={""} className={"object-scale-down mx-auto"}/>
+                            </div>
+                            <div className={"bg-white border-2 rounded-3xl border-blue-300 mb-8 shadow-xl h-[14rem] w-full flex p-8"}><img
+                                src="/illustration/logos/OREILLY.png" alt={""} className={"object-scale-down mx-auto"}/>
+                            </div>
+                            <div className={"bg-white border-2 rounded-3xl border-blue-300 mb-8 shadow-xl h-[14rem] w-full flex p-8"}><img
+                                src="/illustration/logos/XYZ.png" alt={""} className={"object-scale-down mx-auto"}/>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div id={"throwBack"} className={"flex flex-col w-screen "}>
-                    <div className={"m-auto w-4/5 h-[64rem] "}>
-                        <h1>
-                            Throwback to Ignition Hacks v4!
-                        </h1>
+                    <div className={"m-auto w-4/5 h-[64rem]"}>
+                        <h2 className={"text-5xl font-black tracking-tight mb-12"}>THROW BACK ~ IGNITION
+                            V.4!</h2>
                         <div className={"h-[52rem] shadow-xl flex flex-col rounded-3xl"}>
                             <div className={"flex flex-col"}>
                                 <div
@@ -282,16 +293,17 @@ function App() {
 
                 <div id={"aboutUs"} className={"mb-32 flex"}>
                     <div className={"m-auto w-3/5"}>
-                        <h1>Who Are We?</h1>
-                        <p>Founded in 2019, Ignition Hacks is a student-led organization that focuses on bridging
+                        <h2 className={"text-5xl font-black tracking-tight mb-6"}>WHO ARE WE?</h2>
+                        <p className={"text-2xl font-medium"}>Founded in 2019, Ignition Hacks is a student-led
+                            organization that focuses on bridging
                             technology and business. We are a team of coding-ninjas and business-savvy students that
                             is dedicated to bringing an amazing online hackathon to you!</p>
                     </div>
                 </div>
 
                 <div id={"ourTeam"} className={""}>
-                    <div>
-                        <h1>Our Team</h1>
+                    <div className={""}>
+                        <h2 className={"text-5xl font-black tracking-tight mb-6"}>OUR TEAM</h2>
                     </div>
                     <div className={"flex flex-col mx-auto w-3/5 gap-y-8"}>
                         <div id={"dir"} className={"flex flex-wrap justify-center gap-7"}>
@@ -351,17 +363,18 @@ function App() {
             </div>
 
 
-            <div className={"bg-[url('../public/illustration/footer.png')] bg-cover bg-no-repeat bg-top h-[36rem]"}>
-                <div>
-                    <div>
-                        {/*<img/>*/}
-                        <h3>Ignition Hacks</h3>
-                    </div>
-                    <div id={"icons"}>
+            <div className={"bg-[url('../public/illustration/footer.png')] bg-cover bg-no-repeat bg-top h-[32rem]"}>
+                <div className={"flex h-[32rem]"}>
+                    <div className={"mx-auto mt-64 flex flex-col gap-y-4"}>
+                        <div className={""}>
+                            {/*<img/>*/}
+                            <h3 className={"text-4xl font-black"}>Ignition Hacks</h3>
+                        </div>
+                        <div id={"icons"}>
 
+                        </div>
+                        <h5>© 2024 Ignition Hacks. All Rights Reserved</h5>
                     </div>
-                    <h5>© 2024 Ignition Hacks. All Rights Reserved</h5>
-
                 </div>
 
 
