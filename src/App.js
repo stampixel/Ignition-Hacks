@@ -25,10 +25,13 @@ function App() {
                     <div className={"h-screen w-screen flex flex-row p-32 pb-72"}>
                         <div id={"left"} className={"w-1/2"}>
                             <div className={"text-left text-white"}>
-                                <h2 className={"text-5xl"}>IGNITION HACKS</h2>
-                                <h4 className={"text-3xl font-black"}>Online Hackathon / August 16-18, 2024</h4>
-                                <a href={""}>
-                                    <button>REGISTER HERE</button>
+                                <h2 className={"text-5xl font-bold mb-3"}>IGNITION HACKS</h2>
+                                <h4 className={"text-3xl font-semibold mb-6"}>Online Hackathon / August 16-18, 2024</h4>
+                                <a href={"/"}>
+                                    <button type="button"
+                                            className="text-white bg-blue-400 dark:bg-blue-500 cursor-not-allowed font-bold text-xl rounded-lg px-5 py-2.5 text-center"
+                                            disabled>Registration Closed
+                                    </button>
                                 </a>
                             </div>
 
@@ -40,28 +43,26 @@ function App() {
                     </div>
 
                     <div id={"wereBack"} className={"h-screen flex items-center justify-center"}>
-                        <div className={"bg-cover bg-no-repeat bg-top h-1/2 bg-blue-50 rounded-3xl m-52"}>
-                            <div className={""}>
-                                <div className={"h-12 rounded-t-3xl bg-indigo-400"}>
 
-                                </div>
-                                <div>
-                                    <h3>We're back!</h3>
-                                    <p>Ignition Hacks is a <span
-                                        className={"font-black"}>36-hour online hackathon</span> that
-                                        focuses on the intersection between <span className={"font-black"}>business and technology</span>.
-                                        It is a fun-filled event featuring awesome prizes, SWAG, engaging workshops, and
-                                        more!
-                                    </p>
+                        <img src={"/illustration/back.png"} alt={"were back"}/>
+                        {/*<div className={"bg-cover bg-no-repeat bg-top h-1/2 bg-blue-50 rounded-3xl m-52"}>*/}
+                        {/*    <div className={""}>*/}
+                        {/*        <div className={"h-12 rounded-t-3xl bg-indigo-400"}>*/}
+                        {/*        </div>*/}
+                        {/*        <div>*/}
+                        {/*            <h3>We're back!</h3>*/}
+                        {/*            <p>Ignition Hacks is a <span*/}
+                        {/*                className={"font-black"}>36-hour online hackathon</span> that*/}
+                        {/*                focuses on the intersection between <span className={"font-black"}>business and technology</span>.*/}
+                        {/*                It is a fun-filled event featuring awesome prizes, SWAG, engaging workshops, and*/}
+                        {/*                more!*/}
+                        {/*            </p>*/}
 
-                                </div>
+                        {/*        </div>*/}
 
 
-                            </div>
-                            {/*<div>*/}
-                            {/*    <img src={""} alt={""}/>*/}
-                            {/*</div>*/}
-                        </div>
+                        {/*    </div>*/}
+                        {/*</div>*/}
                     </div>
 
 
@@ -71,16 +72,16 @@ function App() {
 
             <div id={"section2"}
                  className={"bg-[url('../public/illustration/clouds-283.png')] bg-cover bg-no-repeat bg-top md:h-[96rem]"}>
-                {/*<img src="/illustration/clouds-283.png" className={"invisible"} alt={"bg"}/>*/}
 
-                <div id={"faq-accordion"} className={"flex h-full w-screen"}>
-
-                    {/*<div id={"accordion"} className={"flex h-full w-screen"}>*/}
-                    <Accordion allowToggle className={"w-1/2 text-left overflow-x-hidden m-auto pt-12"}>
-                        <AccordionItem>
+                <div id={"faq-accordion"} className={"flex h-full w-screen text-sky-950"}>
+                    <Accordion allowToggle className={"w-3/5 text-left overflow-x-hidden m-auto bg-white p-16 rounded-3xl"}>
+                        <div className={"flex"}>
+                            <h2 className={"m-auto text-4xl font-bold mb-12"}>Frequently Asked Questions</h2>
+                        </div>
+                        <AccordionItem className={'border-dashed'}>
                             <h2>
                                 <AccordionButton>
-                                    <Box as='span' flex='1' textAlign='left'>
+                                    <Box as='span' flex='1' textAlign='left' className={"p-4"}>
                                         How many people can be on a team?
                                     </Box>
                                     <AccordionIcon/>
@@ -213,10 +214,10 @@ function App() {
                  className={"bg-[url('../public/illustration/applytoday.png')] bg-cover bg-no-repeat bg-top md:h-[42rem] xl:h-[58rem] md:-mt-96"}>
                 {/*<img src="/illustration/applytoday.png" className={"invisible"} alt={"bg"}/>*/}
                 <div className={"flex w-screen h-full"}>
-                    <div className={"flex flex-col m-auto"}>
-                        <h2>APPLY TODAY!</h2>
-                        <h5>Applications are due by August 3rd, 2024</h5>
-                        <button><span>Register Here</span></button>
+                    <div className={"flex flex-col m-auto text-sky-950 gap-y-2"}>
+                        <h2 className={"text-5xl font-black tracking-tight"}>APPLY TODAY!</h2>
+                        <h4 className={"text-2xl font-medium"}>Applications are due by August 3rd, 2024</h4>
+                        <button className={"text-white bg-blue-400 dark:bg-blue-500 font-bold text-xl rounded-lg px-5 py-2.5 text-center w-2/5 mx-auto"}><span>Register Here</span></button>
                     </div>
                 </div>
             </div>
@@ -231,7 +232,7 @@ function App() {
             </div>
 
             <div id={"footerSection"}
-                 className={"bg-[url('../public/illustration/cloud-white-bg.png')] bg-cover bg-no-repeat bg-top md:h-[200rem] md:-mt-64 lg:-mt-80"}>
+                 className={"bg-[url('../public/illustration/cloud-white-bg.png')] bg-cover bg-no-repeat bg-top md:h-[300rem] md:-mt-64 lg:-mt-80"}>
                 <br/>
                 <div id={"sponsors"} className={"w-screen flex mt-72 mb-32"}>
                     <div className={"w-3/5 m-auto"}>
@@ -260,7 +261,7 @@ function App() {
                     </div>
                 </div>
 
-                <div id={"throwBack"} className={"flex flex-col w-screen"}>
+                <div id={"throwBack"} className={"flex flex-col w-screen "}>
                     <div className={"m-auto w-4/5 h-[64rem] "}>
                         <h1>
                             Throwback to Ignition Hacks v4!
@@ -277,29 +278,94 @@ function App() {
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div id={"aboutUs"}>
-                        <div>
-                            <h1>Who Are We?</h1>
-                            <p>Founded in 2019, Ignition Hacks is a student-led organization that focuses on bridging
-                                technology and business. We are a team of coding-ninjas and business-savvy students that
-                                is dedicated to bringing an amazing online hackathon to you!</p>
-                        </div>
-                    </div>
-
-                    <div id={"ourTeam"}>
-                        <div>
-                            <h1>Our Team</h1>
-                        </div>
-
+                <div id={"aboutUs"} className={"mb-32 flex"}>
+                    <div className={"m-auto w-3/5"}>
+                        <h1>Who Are We?</h1>
+                        <p>Founded in 2019, Ignition Hacks is a student-led organization that focuses on bridging
+                            technology and business. We are a team of coding-ninjas and business-savvy students that
+                            is dedicated to bringing an amazing online hackathon to you!</p>
                     </div>
                 </div>
+
+                <div id={"ourTeam"} className={""}>
+                    <div>
+                        <h1>Our Team</h1>
+                    </div>
+                    <div className={"flex flex-col mx-auto w-3/5 gap-y-8"}>
+                        <div id={"dir"} className={"flex flex-wrap justify-center gap-7"}>
+                            <div
+                                className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                                <img src={"/headshots/jasmine.jpeg"} alt={"headshot"} className={"rounded-xl"}/>
+                                <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
+                                <h5 className={"-mt-2"}>Director</h5>
+                                <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            </div>
+                        </div>
+                        <div id={"log"} className={"flex flex-wrap justify-center gap-7"}>
+                            <div id={"dir"} className={"flex flex-wrap justify-center gap-5"}>
+                                <div className={"flex flex-col h-[12rem] w-[8rem] gap-y-1"}>
+                                    <img src={"/headshots/jasmine.jpeg"} alt={"headshot"}/>
+                                    <h4>Name</h4>
+                                    <h5>Role</h5>
+                                    <a href={"google.com"}><img src={""} alt={"social"}/></a>
+                                </div>
+                            </div>
+                            <div id={"dir"} className={"flex flex-wrap justify-center gap-5"}>
+                                <div className={"flex flex-col h-[12rem] w-[8rem] gap-y-1"}>
+                                    <img src={"/headshots/jasmine.jpeg"} alt={"headshot"}/>
+                                    <h4>Name</h4>
+                                    <h5>Role</h5>
+                                    <a href={"google.com"}><img src={""} alt={"social"}/></a>
+                                </div>
+                            </div>
+                            <div id={"dir"} className={"flex flex-wrap justify-center gap-5"}>
+                                <div className={"flex flex-col h-[12rem] w-[8rem] gap-y-1"}>
+                                    <img src={"/headshots/jasmine.jpeg"} alt={"headshot"}/>
+                                    <h4>Name</h4>
+                                    <h5>Role</h5>
+                                    <a href={"google.com"}><img src={""} alt={"social"}/></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        {/*<div id={"fin"}>*/}
+                        {/*    <img src={"/headshots/jasmine.jpeg"} alt={"headshot"}/>*/}
+                        {/*    <img src={"/headshots/jasmine.jpeg"} alt={"headshot"}/>*/}
+                        {/*    <img src={"/headshots/jasmine.jpeg"} alt={"headshot"}/>*/}
+                        {/*    <img src={"/headshots/jasmine.jpeg"} alt={"headshot"}/>*/}
+                        {/*    <img src={"/headshots/jasmine.jpeg"} alt={"headshot"}/>*/}
+
+                        {/*</div>*/}
+                        {/*<div id={"mar"}>*/}
+
+                        {/*</div>*/}
+                        {/*<div id={"ui/ux"}>*/}
+
+                        {/*</div>*/}
+                    </div>
+
+                </div>
+
             </div>
 
 
-            <footer>
+            <div className={"bg-[url('../public/illustration/footer.png')] bg-cover bg-no-repeat bg-top h-[36rem]"}>
+                <div>
+                    <div>
+                        {/*<img/>*/}
+                        <h3>Ignition Hacks</h3>
+                    </div>
+                    <div id={"icons"}>
 
-            </footer>
+                    </div>
+                    <h5>© 2024 Ignition Hacks. All Rights Reserved</h5>
+
+                </div>
+
+
+            </div>
         </div>
     );
 }
