@@ -70,7 +70,7 @@ function App() {
 
 
             <div id={"section2"}
-                 className={"bg-[url('../public/illustration/clouds-283.png')] bg-cover bg-no-repeat bg-top h-[96rem]"}>
+                 className={"bg-[url('../public/illustration/clouds-283.png')] bg-cover bg-no-repeat bg-top md:h-[96rem]"}>
                 {/*<img src="/illustration/clouds-283.png" className={"invisible"} alt={"bg"}/>*/}
 
                 <div id={"faq-accordion"} className={"flex h-full w-screen"}>
@@ -209,7 +209,7 @@ function App() {
             </div>
 
 
-            <div id={"apply"} className={"bg-[url('../public/illustration/applytoday.png')] bg-cover bg-no-repeat bg-top h-[42rem] -mt-96"}>
+            <div id={"apply"} className={"bg-[url('../public/illustration/applytoday.png')] bg-cover bg-no-repeat bg-top md:h-[42rem] xl:h-[58rem] md:-mt-96"}>
                 {/*<img src="/illustration/applytoday.png" className={"invisible"} alt={"bg"}/>*/}
                 <div className={"flex w-screen h-full"}>
                     <div className={"flex flex-col m-auto"}>
@@ -220,20 +220,35 @@ function App() {
                 </div>
             </div>
 
-            <div id={"joinUs"} className={"bg-[url('../public/illustration/cloud-blue-bg.png')] bg-cover bg-no-repeat bg-top h-[110rem] -mt-48"}>
+            <div id={"joinUs"} className={"bg-[url('../public/illustration/cloud-blue-bg.png')] bg-cover bg-no-repeat bg-top md:h-[110rem] lg:h-[120rem] md:-mt-48 lg:-mt-64"}>
                 <br/>
-                <div className={"bg-[url('../public/illustration/stars.png')] bg-cover bg-no-repeat bg-top h-[92rem] mt-32"}>
+                <div className={"bg-[url('../public/illustration/stars.png')] bg-cover bg-no-repeat bg-top md:h-[92rem] lg:h-[105rem] mt-32"}>
 
                 </div>
             </div>
 
-            <div id={"footerSection"} className={"bg-[url('../public/illustration/cloud-white-bg.png')] bg-cover bg-no-repeat bg-top h-[110rem] -mt-64"}>
+            <div id={"footerSection"}
+                 className={"bg-[url('../public/illustration/cloud-white-bg.png')] bg-cover bg-no-repeat bg-top md:h-[110rem] md:-mt-64 lg:-mt-80"}>
+                <div id={"sponsors"} className={"w-screen h-screen flex"}>
+                    <div className={"grid-cols-3 w-4/10 m-auto"}>
+                        <div>
+                            <div></div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
 
             </div>
 
-            <div id={"sponsors"}>
-
-            </div>
 
             <div id={"throwBack"}>
 
