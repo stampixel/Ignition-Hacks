@@ -11,13 +11,32 @@ import {
 function App() {
     return (
         <div className="App h-full overflow-x-hidden font-satoshi">
-            <header>
-
+            <header className="hidden md:block bg-white fixed top-0 w-full shadow-md">
+                <nav className="container mx-auto px-6 py-3">
+                    <div className="flex justify-between items-center">
+                        <a href="#" className="text-2xl font-bold text-gray-800"><img src={"/logo.png"} alt={"logo"}/></a>
+                        <div className="hidden md:flex items-center space-x-4 text-sky-950 text-lg font-semibold">
+                            <a href="#faq-accordion" className=" hover:text-blue-600">FAQ</a>
+                            <a href="#sponsors" className=" hover:text-blue-600">Sponsors</a>
+                            <a href="#ourTeam" className="hover:text-blue-600">Our Team</a>
+                            {/*<a href="#" className="bg-blue-600 text-white px-4 py-2 rounded-md">Sign Up</a>*/}
+                        </div>
+                        {/*<div className="md:hidden flex items-center">*/}
+                        {/*    <button*/}
+                        {/*        className="text-gray-800 focus:outline-none">*/}
+                        {/*        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"*/}
+                        {/*             xmlns="http://www.w3.org/2000/svg">*/}
+                        {/*            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"*/}
+                        {/*                  d="M4 6h16M4 12h16M4 18h16"></path>*/}
+                        {/*        </svg>*/}
+                        {/*    </button>*/}
+                        {/*</div>*/}
+                    </div>
+                </nav>
             </header>
 
-            <nav>
 
-            </nav>
+
 
             <div id={"bg-1"} className={"flex flex-col"}>
                 <div id={"homePage"}
@@ -346,9 +365,9 @@ function App() {
                     <h2 className={"text-5xl font-black tracking-tight mb-7"}>OUR TEAM</h2>
                 </div>
                 <div className={"flex flex-col mx-auto w-11/12 sm:w-3/5 gap-y-8"}>
-                    <div id={"dir"} className={"flex flex-wrap justify-center gap-7"}>
+                    <div id={"dir"} className={"flex flex-wrap justify-center gap-5"}>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={"size-36"}>
                                 <img src={"/headshots/jasmine.jpeg"} alt={"headshot"}
                                      className={"rounded-xl object-cover size-36"}/>
@@ -358,7 +377,7 @@ function App() {
                             <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={"size-36"}>
                                 <img src={"/headshots/avery.jpeg"} alt={"headshot"}
                                      className={"rounded-xl object-cover size-36"}/>
@@ -370,7 +389,7 @@ function App() {
                                                                                className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/behzad.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -380,7 +399,7 @@ function App() {
                                                                                       alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/carrie.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -390,7 +409,7 @@ function App() {
                                                                                     className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/christine.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -401,7 +420,7 @@ function App() {
                                                                                             className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/daisy.png"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -412,7 +431,7 @@ function App() {
                                                                                                className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/emily.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -423,7 +442,7 @@ function App() {
                                                                                              className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/emma.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -433,7 +452,7 @@ function App() {
                                                                                    className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/franklin.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -444,7 +463,7 @@ function App() {
                                                                                               className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/huyen.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -454,7 +473,7 @@ function App() {
                                                                               className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/kelvin.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -465,7 +484,7 @@ function App() {
                                                                                         className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/kevin.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -475,7 +494,7 @@ function App() {
                                                                                    className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/matthew.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -485,7 +504,7 @@ function App() {
                                                                                    className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/meganli.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -496,7 +515,7 @@ function App() {
                                                                                              className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/melissa.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -506,7 +525,7 @@ function App() {
                                                                                  className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/nilgun.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -515,7 +534,7 @@ function App() {
                             <div className={"size-6"}></div>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/rachel.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -525,7 +544,7 @@ function App() {
                                                                                       alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/sohaila.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
@@ -535,7 +554,7 @@ function App() {
                                                                                     className={"w-6"}/></a>
                         </div>
                         <div
-                            className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
+                            className={"flex flex-col h-[18rem] w-[13rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}>
                                 <img src={"/headshots/thomas.jpeg"} alt={"headshot"}
                                      className={"rounded-xl object-cover size-36"}/>
