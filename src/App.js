@@ -229,10 +229,10 @@ function App() {
             </div>
 
             <div id={"joinUs"}
-                 className={"md:bg-[url('../public/illustration/cloud-blue-bg.png')] bg-cover bg-no-repeat bg-top h-[55rem] -mt-52 md:h-[110rem] lg:h-[120rem] md:-mt-48 lg:-mt-64"}>
+                 className={"md:bg-[url('../public/illustration/cloud-blue-bg.png')] bg-cover bg-no-repeat bg-top h-[55rem] -mt-52 md:h-[110rem] lg:h-[130rem] xl:h-[140rem] md:-mt-48 lg:-mt-64"}>
                 <br/>
                 <div
-                    className={"bg-[url('../public/illustration/stars.png')] hidden md:flex bg-cover bg-no-repeat bg-top md:h-[92rem] lg:h-[105rem] mt-32"}>
+                    className={"bg-[url('../public/illustration/stars.png')] hidden md:flex bg-cover bg-no-repeat bg-top md:h-[92rem] lg:h-[105rem] xl:h-[130rem] mt-32"}>
                 </div>
                 <div
                     className={"bg-[url('../public/illustration/stars-mobile.png')] md:hidden bg-cover bg-no-repeat bg-top h-[55rem] mt-24"}>
@@ -248,53 +248,63 @@ function App() {
                     </div>
                     <div className={"w-4/5 md:w-3/5 m-auto"}>
                         <div className={"flex flex-col"}>
+
                             <div
                                 className={"bg-white border-2 rounded-3xl border-blue-300 mb-4 md:mb-8 shadow-xl h-[10rem] md:h-[14rem] w-full flex p-8"}>
-                                <img
-                                    src="/illustration/logos/BEST_BUY.png" alt={""}
-                                    className={"object-scale-down mx-auto"}/>
+                                <a href={"https://www.bestbuy.com"} className={"h-full w-full flex"}>
+                                    <img
+                                        src="/illustration/logos/BEST_BUY.png" alt={""}
+                                        className={"object-scale-down mx-auto"}/>
+                                </a>
                             </div>
+
                             <div
                                 className={"bg-white border-2 rounded-3xl border-blue-300 mb-4 md:mb-8 shadow-xl h-[10rem] md:h-[14rem] w-full flex p-8"}>
-                                <img
-                                    src="/illustration/logos/GAR.png" alt={""} className={"object-scale-down mx-auto"}/>
+                                <a href={"https://automationroboticsarduino.com"} className={"h-full w-full flex"}><img
+                                    src="/illustration/logos/GAR.png" alt={""} className={"object-scale-down mx-auto"}/></a>
                             </div>
                         </div>
                         <div className={"grid grid-cols-2 gap-4 place-items-center"}>
+
                             <div
                                 className={"bg-white border-2 rounded-3xl border-blue-300 md:mb-8 shadow-xl h-[10rem] md:h-[14rem] w-full flex p-8"}>
-                                <img
+                                <a href={"https://certopus.com/"} className={"h-full w-full flex"}><img
                                     src="/illustration/logos/CERTOPUS.svg" alt={""}
-                                    className={"object-scale-down mx-auto"}/>
+                                    className={"object-scale-down mx-auto"}/></a>
+                            </div>
+
+                            <div
+                                className={"bg-white border-2 rounded-3xl border-blue-300 md:mb-8 shadow-xl h-[10rem] md:h-[14rem] w-full flex p-8"}>
+                                <a href={"https://igda.org/"} className={"h-full w-full flex"}>
+                                    <img
+                                        src="/illustration/logos/IGDA.png" alt={""}
+                                        className={"object-scale-down mx-auto"}/>
+                                </a>
                             </div>
                             <div
                                 className={"bg-white border-2 rounded-3xl border-blue-300 md:mb-8 shadow-xl h-[10rem] md:h-[14rem] w-full flex p-8"}>
-                                <img
-                                    src="/illustration/logos/IGDA.png" alt={""}
-                                    className={"object-scale-down mx-auto"}/>
-                            </div>
-                            <div
-                                className={"bg-white border-2 rounded-3xl border-blue-300 md:mb-8 shadow-xl h-[10rem] md:h-[14rem] w-full flex p-8"}>
-                                <img
+                                <a className={"h-full w-full flex"}><img
                                     src="/illustration/logos/INTERVIEW_BUDDY.png" alt={""}
-                                    className={"object-scale-down mx-auto"}/>
+                                    className={"object-scale-down mx-auto"}/></a>
                             </div>
                             <div
                                 className={"bg-white border-2 rounded-3xl border-blue-300 md:mb-8 shadow-xl h-[10rem] md:h-[14rem] w-full flex p-8"}>
-                                <img
+                                <a href={"https://interviewbuddy.net/"} className={"h-full w-full flex"}><img
                                     src="/illustration/logos/NORDVPN.png" alt={""}
-                                    className={"object-scale-down mx-auto"}/>
+                                    className={"object-scale-down mx-auto"}/></a>
                             </div>
                             <div
                                 className={"bg-white border-2 rounded-3xl border-blue-300 md:mb-8 shadow-xl h-[10rem] md:h-[14rem] w-full flex p-8"}>
-                                <img
+                                <a href={"https://www.oreilly.com/"} className={"h-full w-full flex"}><img
                                     src="/illustration/logos/OREILLY.png" alt={""}
-                                    className={"object-scale-down mx-auto"}/>
+                                    className={"object-scale-down mx-auto"}/></a>
                             </div>
                             <div
                                 className={"bg-white border-2 rounded-3xl border-blue-300 md:mb-8 shadow-xl h-[10rem] md:h-[14rem] w-full flex p-8"}>
-                                <img
-                                    src="/illustration/logos/XYZ.png" alt={""} className={"object-scale-down mx-auto"}/>
+                                <a href={"https://gen.xyz/"} className={"h-full w-full flex"}>
+                                    <img
+                                        src="/illustration/logos/XYZ.png" alt={""}
+                                        className={"object-scale-down mx-auto"}/></a>
                             </div>
                         </div>
                     </div>
@@ -354,153 +364,153 @@ function App() {
                                      className={"rounded-xl object-cover size-36"}/>
 
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Avery Ng</h4>
+                            <h5 className={"-mt-2"}>Marketing</h5>
+                            <a href={"https://www.instagram.com/ncywjx/"}><img src={"/instagram.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/behzad.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Behzad Waseem</h4>
+                            <h5 className={"-mt-2"}>Logistics</h5>
+                            <a href={"https://www.linkedin.com/in/behzadwaseem"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/carrie.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Carrie Tieu</h4>
+                            <h5 className={"-mt-2"}>Marketing</h5>
+                            <a href={"https://ca.linkedin.com/in/carrie-tieu"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/christine.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Christine Wei</h4>
+                            <h5 className={"-mt-2"}>UI/UX</h5>
+                            <a href={"https://www.linkedin.com/in/christine-ruo-wei/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/daisy.png"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Daisy Wang</h4>
+                            <h5 className={"-mt-2"}>Logistics</h5>
+                            <a href={"https://www.linkedin.com/in/daisy-wang-a82316257/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/emily.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Emily Yu</h4>
+                            <h5 className={"-mt-2"}>Logistics</h5>
+                            <a href={"https://www.linkedin.com/in/emily-yu-95b6b2285/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/emma.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Emma Shi</h4>
+                            <h5 className={"-mt-2"}>Finance</h5>
+                            <a href={"https://www.linkedin.com/in/emma-shi/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/franklin.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Franklin Ramirez</h4>
+                            <h5 className={"-mt-2"}>Finance Lead</h5>
+                            <a href={"https://www.linkedin.com/in/franklin-ramirez611/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/huyen.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Harper Le</h4>
+                            <h5 className={"-mt-2"}>Marketing</h5>
+                            <a href={"http://linkedin.com/in/huyenttle"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/kelvin.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Kelvin Ngyuen</h4>
+                            <h5 className={"-mt-2"}>Finance</h5>
+                            <a href={"https://www.linkedin.com/in/nguyen-kelvin/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/kevin.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Kevin Tang</h4>
+                            <h5 className={"-mt-2"}>Logistics</h5>
+                            <a href={"https://www.instagram.com/bourr4sque/"}><img src={"/instagram.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/matthew.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Matthew Yang</h4>
+                            <h5 className={"-mt-2"}>Finance</h5>
+                            <a href={"https://www.linkedin.com/in/matthew-y"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/meganli.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Megan Li</h4>
+                            <h5 className={"-mt-2"}>Finance</h5>
+                            <a href={"https://www.linkedin.com/in/megan-li-61639b276/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/melissa.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Melissa Ho</h4>
+                            <h5 className={"-mt-2"}>UI/UX & Web Dev</h5>
+                            <a href={"https://www.linkedin.com/in/melyho/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/nilgun.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Nilgun Sarikaya</h4>
+                            <h5 className={"-mt-2"}>Marketing Lead</h5>
+                            <div className={"size-6"}></div>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/rachel.jpeg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Rachel Wei</h4>
+                            <h5 className={"-mt-2"}>UI/UX</h5>
+                            <a href={"https://www.instagram.com/rachelweiiiii/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
                             <div className={""}><img src={"/headshots/sohaila.jpg"} alt={"headshot"}
                                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
+                            <h4 className={"text-xl font-bold"}>Sohaila Ali</h4>
                             <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.linkedin.com/in/sohailaali"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -508,9 +518,9 @@ function App() {
                                 <img src={"/headshots/thomas.jpeg"} alt={"headshot"}
                                      className={"rounded-xl object-cover size-36"}/>
                             </div>
-                            <h4 className={"text-xl font-bold"}>Jasmine Xu</h4>
-                            <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"google.com"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <h4 className={"text-xl font-bold"}>Thomas Lenh</h4>
+                            <h5 className={"-mt-2"}>Finance</h5>
+                            <a href={"https://www.linkedin.com/in/thomas-lenh-38216a248/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
                         </div>
                     </div>
                     <div id={"log"} className={"flex flex-wrap justify-center gap-7"}>
@@ -543,10 +553,18 @@ function App() {
                             {/*<img/>*/}
                             <h3 className={"text-4xl text-white font-black drop-shadow-lg"}>Ignition Hacks</h3>
                         </div>
-                        <div id={"icons"}>
-
+                        <div id={"icons"} className={"flex flex-row justify-center items-center gap-x-2"}>
+                            <a href="https://www.instagram.com/ignitionhacks/"><img src={"/instagram.png"}
+                                                                                    alt={"instagram"}
+                                                                                    className={"w-6 drop-shadow-lg"}/></a>
+                            <a href="https://www.linkedin.com/company/ignition-hacks/"><img src={"/linkedin.png"}
+                                                                                            alt={"instagram"}
+                                                                                            className={"w-6 drop-shadow-lg"}/></a>
+                            <a href="mailto:info@ignitionhacks.com"><img src={"/mail.png"} alt={"instagram"}
+                                                                         className={"h-6 drop-shadow-lg"}/></a>
                         </div>
-                        <h5 className={"text-white drop-shadow-lg"}>© 2024 Ignition Hacks. All Rights Reserved</h5>
+                        <h5 className={"text-white drop-shadow-lg text-lg"}>© 2024 Ignition Hacks. All Rights
+                            Reserved</h5>
                     </div>
                 </div>
             </div>
