@@ -345,7 +345,7 @@ function App() {
                 <div className={""}>
                     <h2 className={"text-5xl font-black tracking-tight mb-7"}>OUR TEAM</h2>
                 </div>
-                <div className={"flex flex-col mx-auto  sm:w-3/5 gap-y-8"}>
+                <div className={"flex flex-col mx-auto w-11/12 sm:w-3/5 gap-y-8"}>
                     <div id={"dir"} className={"flex flex-wrap justify-center gap-7"}>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -366,7 +366,8 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Avery Ng</h4>
                             <h5 className={"-mt-2"}>Marketing</h5>
-                            <a href={"https://www.instagram.com/ncywjx/"}><img src={"/instagram.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.instagram.com/ncywjx/"}><img src={"/instagram.png"} alt={"social"}
+                                                                               className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -375,7 +376,8 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Behzad Waseem</h4>
                             <h5 className={"-mt-2"}>Logistics</h5>
-                            <a href={"https://www.linkedin.com/in/behzadwaseem"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.linkedin.com/in/behzadwaseem"}><img src={"/linkedin.png"}
+                                                                                      alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -384,7 +386,8 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Carrie Tieu</h4>
                             <h5 className={"-mt-2"}>Marketing</h5>
-                            <a href={"https://ca.linkedin.com/in/carrie-tieu"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://ca.linkedin.com/in/carrie-tieu"}><img src={"/linkedin.png"} alt={"social"}
+                                                                                    className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -393,7 +396,9 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Christine Wei</h4>
                             <h5 className={"-mt-2"}>UI/UX</h5>
-                            <a href={"https://www.linkedin.com/in/christine-ruo-wei/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.linkedin.com/in/christine-ruo-wei/"}><img src={"/linkedin.png"}
+                                                                                            alt={"social"}
+                                                                                            className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -402,7 +407,9 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Daisy Wang</h4>
                             <h5 className={"-mt-2"}>Logistics</h5>
-                            <a href={"https://www.linkedin.com/in/daisy-wang-a82316257/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.linkedin.com/in/daisy-wang-a82316257/"}><img src={"/linkedin.png"}
+                                                                                               alt={"social"}
+                                                                                               className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -411,7 +418,9 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Emily Yu</h4>
                             <h5 className={"-mt-2"}>Logistics</h5>
-                            <a href={"https://www.linkedin.com/in/emily-yu-95b6b2285/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.linkedin.com/in/emily-yu-95b6b2285/"}><img src={"/linkedin.png"}
+                                                                                             alt={"social"}
+                                                                                             className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -420,7 +429,8 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Emma Shi</h4>
                             <h5 className={"-mt-2"}>Finance</h5>
-                            <a href={"https://www.linkedin.com/in/emma-shi/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.linkedin.com/in/emma-shi/"}><img src={"/linkedin.png"} alt={"social"}
+                                                                                   className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -429,7 +439,9 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Franklin Ramirez</h4>
                             <h5 className={"-mt-2"}>Finance Lead</h5>
-                            <a href={"https://www.linkedin.com/in/franklin-ramirez611/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.linkedin.com/in/franklin-ramirez611/"}><img src={"/linkedin.png"}
+                                                                                              alt={"social"}
+                                                                                              className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -438,7 +450,8 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Harper Le</h4>
                             <h5 className={"-mt-2"}>Marketing</h5>
-                            <a href={"http://linkedin.com/in/huyenttle"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"http://linkedin.com/in/huyenttle"}><img src={"/linkedin.png"} alt={"social"}
+                                                                              className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -447,7 +460,9 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Kelvin Ngyuen</h4>
                             <h5 className={"-mt-2"}>Finance</h5>
-                            <a href={"https://www.linkedin.com/in/nguyen-kelvin/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.linkedin.com/in/nguyen-kelvin/"}><img src={"/linkedin.png"}
+                                                                                        alt={"social"}
+                                                                                        className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -456,7 +471,8 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Kevin Tang</h4>
                             <h5 className={"-mt-2"}>Logistics</h5>
-                            <a href={"https://www.instagram.com/bourr4sque/"}><img src={"/instagram.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.instagram.com/bourr4sque/"}><img src={"/instagram.png"} alt={"social"}
+                                                                                   className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -465,7 +481,8 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Matthew Yang</h4>
                             <h5 className={"-mt-2"}>Finance</h5>
-                            <a href={"https://www.linkedin.com/in/matthew-y"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.linkedin.com/in/matthew-y"}><img src={"/linkedin.png"} alt={"social"}
+                                                                                   className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -474,7 +491,9 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Megan Li</h4>
                             <h5 className={"-mt-2"}>Finance</h5>
-                            <a href={"https://www.linkedin.com/in/megan-li-61639b276/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.linkedin.com/in/megan-li-61639b276/"}><img src={"/linkedin.png"}
+                                                                                             alt={"social"}
+                                                                                             className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -483,7 +502,8 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Melissa Ho</h4>
                             <h5 className={"-mt-2"}>UI/UX & Web Dev</h5>
-                            <a href={"https://www.linkedin.com/in/melyho/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.linkedin.com/in/melyho/"}><img src={"/linkedin.png"} alt={"social"}
+                                                                                 className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -501,7 +521,8 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Rachel Wei</h4>
                             <h5 className={"-mt-2"}>UI/UX</h5>
-                            <a href={"https://www.instagram.com/rachelweiiiii/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.instagram.com/rachelweiiiii/"}><img src={"/linkedin.png"}
+                                                                                      alt={"social"} className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -510,7 +531,8 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Sohaila Ali</h4>
                             <h5 className={"-mt-2"}>Director</h5>
-                            <a href={"https://www.linkedin.com/in/sohailaali"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.linkedin.com/in/sohailaali"}><img src={"/linkedin.png"} alt={"social"}
+                                                                                    className={"w-6"}/></a>
                         </div>
                         <div
                             className={"flex flex-col h-[18rem] w-[12rem] gap-y-2 border-2 border-blue-300 rounded-xl p-6 items-center shadow-lg text-slate-700"}>
@@ -520,7 +542,9 @@ function App() {
                             </div>
                             <h4 className={"text-xl font-bold"}>Thomas Lenh</h4>
                             <h5 className={"-mt-2"}>Finance</h5>
-                            <a href={"https://www.linkedin.com/in/thomas-lenh-38216a248/"}><img src={"/linkedin.png"} alt={"social"} className={"w-6"}/></a>
+                            <a href={"https://www.linkedin.com/in/thomas-lenh-38216a248/"}><img src={"/linkedin.png"}
+                                                                                                alt={"social"}
+                                                                                                className={"w-6"}/></a>
                         </div>
                     </div>
                     <div id={"log"} className={"flex flex-wrap justify-center gap-7"}>
